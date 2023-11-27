@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+body *{
+    font-family: 'Playfair Display', serif;
+    width: 390px;
+    margin: auto;
+    border-radius: 1vw;
+}
+#root{
+    box-shadow: 0px 0px 5px grey;
+}
+
+section {
+    padding: 1vw 0;
+    min-height: 100vh;
+    background-image: url(qwirkle_bg.jpg);
+    background-position: center;
+}
+
+h1 {
+    width: 90%;
+    text-align: center;
+    font-size: 50px;
+    margin: auto;
+    color: rgb(12, 69, 149);
+}
+
+.bg {
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 1vw;
+    box-shadow: 0 0 5px grey;
+}
+
+p {
+    font-size: 20px;
+    width: 90%;
+}
+input[type=text] {
+    text-align: center;
+}
+
+#players {
+    margin: 30px 0;
+    text-align: center;
+}
+
+#point{
+    width: 300px;
+    padding: 1vw;
+}
+
+#currentPlayer {
+    width: 90%;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 800;
+    opacity: 1;
+}
+
+#points {
+    margin: 30px auto;
+}
+button {
+    padding: 10px 0;
+    max-width: 90%;
+    font-size: 20px;
+    margin: 10px;
+    box-shadow: 0.2vw 0.2vw 0.2vw black;
+    border-radius: 20px;
+}
+.pts {
+    display: inline-flex;
+    justify-content: center;
+    line-height: 1;
+    width: 110px;
+    height: 48px;
+    padding: 10px;
+    border-radius: 6px;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    border:none;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+input {
+    font-size: 30px;
+    width: 90%;
+}
+
+.player {
+    width: 80%;
+    opacity: 0.8;
+    margin: auto;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+    margin: 1vw;
+    background-color: lightgray;
+}
+
+.player p {
+    font-weight: 800;
+}
+.data {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+li {
+    list-style: none;
+}
+#scores {
+    box-shadow: none;
+}
+.ReactModal__Content {
+    overflow: hidden!important;
+}
+.ReactModal__Content--after-open {
+    width: 80%;
+    height: 50vh;
+    inset: 20px!important;
+    overflow: hidden;
+}
+
+.ReactModal__Content--after-open h2 {
+    text-align: center;
+    width: 90%;
+}
